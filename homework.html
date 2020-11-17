@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <title>Position</title>
+    <style>
+      html,
+      body {
+        height: 100vh;
+        width: auto;
+        overflow: hidden;
+      }
+      .container {
+        margin-bottom: 1rem;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      span {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+      }
+      .h-8 {
+        height: 8% !important;
+      }
+      .h-88 {
+        height: 88% !important;
+      }
+      .h-5 {
+        height: 5% !important;
+      }
+      .w-5 {
+        width: 5% !important;
+      }
+      .fontsize {
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container w-100 h-100 bg-dark">
+      <!-- 最上第一列 -->
+      <div class="container d-flex flex-wrap h-8 w-100 ">
+        <div class="d-flex h-100 w-100 col-12 col-lg-4 justify-content-center align-items-center">
+            <div class="d-flex  h-100 text-white fontsize align-items-center">LOGO</div>
+        </div>
+       
+     
+        <!-- 選單右邊字 -->
+        <div class="d-flex h-100 col-12 col-lg-8 justify-content-end align-items-center text-white">
+            <div class="d-flex  h-100 col-lg-4  justify-content-center align-items-center ">
+          <div class="  pr-3">Home</div>
+          <div class="  pr-3">Features</div>
+          <div class="  pr-3">Works</div>
+          <div class=" pr-3">Contact</div>
+         </div> 
+        </div>
+      </div>
+   
+
+    <div class="container h-88 w-100 ">
+      <div class="d-flex flex-column h-100 w-100 justify-content-center align-items-center bg-dark">
+        <div class="mb-2"><img class="rounded-circle" src="https://picsum.photos/id/1003/160/160"></div>
+        <div class="text-white mb-3"><h2>Bootstrap Layout</h2></div>
+        <div class="w-50 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quaerat adipisci quas labore numquam totam velit perferendis iste nobis, eveniet ex dolorem aperiam beatae quis possimus mollitia delectus provident aliquam.Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+         <div class="my-3"><button type="button" class="btn btn-light">Learn More</button></div>
+      </div>
+
+      <div class="container d-flex h-5 w-100 justift-content-center align-items-center "> 
+        <div class=" d-flex h-100 w-100 text-white  ">
+         <div class="text-center mx-auto">Design by Yu-Shan</div>
+        </div>
+       </div> 
+    </div>
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./js/popper.min.js "></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
